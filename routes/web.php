@@ -13,6 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [\App\Http\Controllers\HomeController::class, 'index']);
+Route::any('/wechat-menu/resources', [\App\Http\Controllers\HomeController::class, 'wechatMenuAjax']);
+Route::any('/serve', [\App\Http\Controllers\HomeController::class, 'serve']);

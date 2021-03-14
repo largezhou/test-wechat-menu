@@ -1,0 +1,95 @@
+{
+    "other_events": [
+        {
+            "key": "text",
+            "type": "callback",
+            "content": "App\\Services\\WechatMenuHandler@aiCore"
+        },
+        {
+            "key": "image",
+            "type": "callback",
+            "content": "App\\Services\\WechatMenuHandler@image"
+        },
+        {
+            "key": "location",
+            "type": "callback",
+            "content": "App\\Services\\WechatMenuHandler@location"
+        },
+        {
+            "key": "link",
+            "type": "callback",
+            "content": ""
+        },
+        {
+            "key": "video",
+            "type": "callback",
+            "content": ""
+        },
+        {
+            "key": "subscribe",
+            "type": "msg",
+            "content": {
+                "type": "text",
+                "value": "欢迎关注呀！可以和我聊天哟！！！"
+            }
+        },
+        {
+            "key": "unsubscribe",
+            "type": "callback",
+            "content": ""
+        }
+    ],
+    "menu_events": [
+        {
+            "key": "9ihsohvanf8",
+            "type": "msg",
+            "content": {
+                "type": "text",
+                "value": "回复文字"
+            },
+            "remark": "回复文字"
+        },
+        {
+            "key": "l6lh0c99fb",
+            "type": "msg",
+            "content": {
+                "type": "image",
+                "value": {
+                    "media_id": "fW_6EkpY8ufMlHOIygvcYlVdsNl9td75h0IR1h42LjI",
+                    "name": "1497082377927223.jpg",
+                    "update_time": 1516695900,
+                    "url": "http:\/\/mmbiz.qpic.cn\/mmbiz_jpg\/wV02s4rxt5pDGXYD7QBwHhKO6JmvicibYTG1D3f5GADZNY5Mz8StUCrag87e3Ud4rYrstQCmke4qNxUZpqRrG27Q\/0?wx_fmt=jpeg",
+                    "tags": []
+                }
+            },
+            "remark": "回复图片"
+        },
+        {
+            "key": "5ttd24ujhj8",
+            "type": "msg",
+            "content": {
+                "type": "news",
+                "value": {
+                    "media_id": "fW_6EkpY8ufMlHOIygvcYoxpa_yBpJuGJssOMDSZhdc",
+                    "content": {
+                        "news_item": [
+                            {
+                                "title": "抱歉，我就是那个“干得好好的却选择跳槽”的疯子",
+                                "digest": "我人生中最快乐的一天是收到高盛Offer的时候2014年，初夏，西藏。&nbsp;柳青和她的“驴友”程维，正",
+                                "thumb_url": "http:\/\/mmbiz.qpic.cn\/mmbiz_jpg\/wV02s4rxt5piacpZJ8bNXQNuwk08VwPaIAZ1BG6DBSkeCCiaib8aoMhPt7RsEQibZpqPJiavZ57nAJgiaOz2ibvxxWqBg\/0?wx_fmt=jpeg",
+                                "url": "http:\/\/mp.weixin.qq.com\/s?__biz=MzIxNzg1MTYxMg==&mid=100000003&idx=1&sn=803d1cd7efc3381081ebc965bf4e38c1&chksm=17f232b02085bba6fc99a435a35bdc351586e5e29fff15e1a14402670f1a71d90d8ad4b4c27c#rd"
+                            },
+                            {
+                                "title": "张瑞敏最新内部分享：决策权、用人权、薪酬权都给员工，你敢吗？",
+                                "digest": "在青岛，无论是政府官员还是企业家，提起他，都是尊称“张首席”。屹立市场大潮潮头30多年的他，是企业界“教父”",
+                                "thumb_url": "http:\/\/mmbiz.qpic.cn\/mmbiz_png\/wV02s4rxt5piacpZJ8bNXQNuwk08VwPaIDYJl6TKocuqugVUulr9ibqGhjCmTD2BAVjrIDBDmTXcqlutzCCsrEGg\/0?wx_fmt=png",
+                                "url": "http:\/\/mp.weixin.qq.com\/s?__biz=MzIxNzg1MTYxMg==&mid=100000003&idx=2&sn=21fbc25693efcbc9d24c3135df192967&chksm=17f232b02085bba67dbe7389684e63e138b10d71a729e05a918cfd9dc6fe3d08c2eeb596b761#rd"
+                            }
+                        ]
+                    }
+                }
+            },
+            "remark": "回复文章"
+        }
+    ]
+}
