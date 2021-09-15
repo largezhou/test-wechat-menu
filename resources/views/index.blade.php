@@ -16,5 +16,6 @@
 </div>
 <h1><a href="/admin/wechat-menu">接入 laravel-admin 后台</a></h1>
 <p>帐号密码：admin</p>
+<a href="{{ url('/clear-quota') }}" target="_blank">重置素材接口频率限制</a>
 </body>
 </html>

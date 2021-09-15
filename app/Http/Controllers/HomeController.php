@@ -26,4 +26,18 @@ class HomeController extends Controller
     {
         return Manager::getInstance()->serve();
     }
+
+    public function clearQuota()
+    {
+        $res = Manager::getInstance()
+            ->getWechat()
+            ->base
+            ->clearQuota();
+
+        return [
+            'status' => true,
+            'data' => $res,
+            'msg' => '',
+        ];
+    }
 }
